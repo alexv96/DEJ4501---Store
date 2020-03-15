@@ -69,5 +69,8 @@
                 </form>
             </main>
         </div>
+            
+        <script src="bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
     </body>
 </html>
