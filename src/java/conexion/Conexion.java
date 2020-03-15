@@ -34,6 +34,7 @@ public class Conexion {
     }
     
     public Connection getConexion(){
+        System.out.println("conecto");
         return conexion;
     }
     

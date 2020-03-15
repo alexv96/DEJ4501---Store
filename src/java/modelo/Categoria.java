@@ -16,7 +16,15 @@ public class Categoria {
     private String nombreCategoria;
     private Calendar fechaCreacion;
 
+    {
+        fechaCreacion = Calendar.getInstance();
+    }
+    
     public Categoria() {
+    }
+
+    public Categoria(String nombreCategoria) {
+        this.nombreCategoria = nombreCategoria;
     }
 
     public Categoria(String nombreCategoria, Calendar fechaCreacion) {
